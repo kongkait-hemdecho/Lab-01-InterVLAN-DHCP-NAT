@@ -4,7 +4,7 @@
 Lab นี้เป็นการจำลองระบบเครือข่ายองค์กรขนาดเล็กที่ใช้ Cisco Router และ Switch โดยประกอบด้วยการแบ่ง VLAN, การแจก IP แบบอัตโนมัติ (DHCP), การเชื่อมต่อออกอินเทอร์เน็ตผ่าน NAT Overload และการกำหนด Default Route
 
 ## 📐 Network Topology
-![Network Topology](image.png)
+<img width="1920" height="1040" alt="Topology" src="https://github.com/user-attachments/assets/c33c168f-85b2-4c0c-9891-8fa8af14a11f" />
 
 * **VLAN 10:** Admin (`192.168.10.0/24`)
 * **VLAN 20:** HR (`192.168.20.0/24`)
@@ -20,3 +20,5 @@ Lab นี้เป็นการจำลองระบบเครือข�
 
 ## ✅ Verification
 ทดสอบ Ping จาก PC ในวง LAN ไปยัง Server ด้านนอก (`8.8.8.8`) ผลลัพธ์คือการส่งแพ็กเก็ตสำเร็จ 100% (TTL=126)
+
+<img width="752" height="570" alt="ping" src="https://github.com/user-attachments/assets/efb605f0-7d4a-463d-aac4-ece3fb61aedf" />
